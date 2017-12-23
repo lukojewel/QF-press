@@ -1,0 +1,310 @@
+
+/*------------------------------------------------------------------
+[Layout Stylesheet]
+
+Project:    Qatar Foundation Press
+Version:    1.0
+Created:    21.12.2017 10:55 AM
+Use:   Event/News based micro website 
+-------------------------------------------------------------------*/
+
+
+/*---------------------
+Header
+-----------------------*/
+.qf-nav-wrapper{
+    padding: 10px 0;
+}
+.qf-nav-logo {
+    display: inline-block;
+}
+.qf-nav-outer {
+    border-top: 5px solid $qf-brand-green;
+    border-bottom: 1px solid #f5f5f5;
+    min-height: 56px;
+}
+
+/*---------------------
+Page content
+-----------------------*/
+.page-content {
+    padding: $spacing-unit 0;
+}
+.qf-top-banner{
+    background-image: url(../images/qf-top-banner.jpg);
+    background-position: center;
+    background-size: 100%;
+    padding: 120px;
+    position: relative;
+}
+.qf-banner-h1{
+    color:#fff;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+.qf-banner-desc{
+    text-align: center;
+    color: #c3c3c3;
+    font-size: 18px;
+    font-weight: 300;
+}
+.qf-banner-overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}   
+.qf-highlights-section{
+    padding: 60px 0;
+}
+.qf-highlights-title{
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    color: #151515;
+}
+.qf-highlights-list-wrapper{
+    padding-top: 50px;
+}
+.qf-highlights-item-wrapper{
+    padding: 0 20px 40px;
+}
+.qf-highlights-item{
+    min-height: 375px;
+    background: #fff;
+    box-shadow: rgba(86, 86, 86, 0.1) 0px 0.5px 6px, rgba(179, 179, 179, 0.1) -1px 1px 11px;
+}
+.qf-highlights-item-img{
+    max-height: 200px;
+    width: 100%;
+}
+.qf-highlights-item-title-wrapper{
+    padding: 21px 0;
+}
+.qf-highlights-item-title{
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 600;
+    color: #404040;
+}
+.qf-highlights-item-title:visited{
+    color: #404040;
+}
+a.qf-highlights-item-title:hover {
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
+  cursor: pointer;
+}
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+.qf-highlights-source-name{
+    padding: 6px 15px;
+    display: inline-block;
+    border: 1px solid #efefef;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #4e4e4e;
+    font-weight: 300;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/*---------------------
+Footer
+-----------------------*/
+.footer-wrapper {
+    border-top: 1px solid #f1f1f1;
+    padding: 30px 0 80px;
+    background: #fff;
+}
+.footer-logo-wrapper{
+    padding: 0 0 20px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.footer-contact-title{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1f1f1f;
+    padding-bottom: 10px;
+}
+.footer-contact-section-wrapper{
+    padding: 20px 0 0;  
+}
+.footer-contact-item{
+    color: #616161;
+}
+
+
+.pagination a, .pagination span {
+    padding: 7px 18px;
+    border: 1px solid #eee;
+    margin-left: -2px;
+    margin-right: -2px;
+    background-color: #ffffff;
+    display: inline-block;
+  }
+
+.pagination a {    
+    &:hover {
+        background-color: #f1f1f1;
+        color: #333;
+    }
+ }
+
+.pagination {
+    text-align: center;
+ }
+
+
+
+
+
+
+/**
+ * Site header
+ */
+
+
+
+
+.site-nav {
+    float: right;
+    line-height: 56px;
+
+    .menu-icon {
+        display: none;
+    }
+
+    .page-link {
+        color: $text-color;
+        line-height: $base-line-height;
+
+        // Gaps between nav items, but not on the last one
+        &:not(:last-child) {
+            margin-right: 20px;
+        }
+    }
+}
+
+
+
+/**
+ * Site footer
+ */
+
+
+.footer-heading {
+    font-size: 18px;
+    margin-bottom: $spacing-unit / 2;
+}
+
+.contact-list,
+.social-media-list {
+    list-style: none;
+    margin-left: 0;
+}
+
+.footer-col-wrapper {
+    font-size: 15px;
+    color: $grey-color;
+    margin-left: -$spacing-unit / 2;
+    @extend %clearfix;
+}
+
+.footer-col {
+    float: left;
+    margin-bottom: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+}
+
+.footer-col-1 {
+    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+    width:         calc(35% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-2 {
+    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+    width:         calc(20% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-3 {
+    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+    width:         calc(45% - (#{$spacing-unit} / 2));
+}
+
+
+
+
+/**
+ * Page content
+ */
+
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+}
+
+.post-link {
+    display: block;
+    font-size: 24px;
+}
+
+
+
+/**
+ * Posts
+ */
+.post-header {
+    margin-bottom: $spacing-unit;
+}
+
+.post-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+
+    h2 {
+        font-size: 32px;
+
+    
+    }
+
+    h3 {
+        font-size: 26px;
+
+    }
+
+    h4 {
+        font-size: 20px;
+
+    }
+}

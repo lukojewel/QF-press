@@ -1,0 +1,39 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Qatar foundation Press
+email: suport@qf.com
+description: > # this means to ignore newlines until "baseurl:"
+  Sample descp about qf - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+twitter_username: contentfulapp
+github_username:  dlitvakb
+
+paginate: 1
+paginate_path: /page:num/
+
+  # Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+
+contentful:
+  spaces:
+    - links:
+        space: 3fwy09k2gc9g
+        access_token: 25f513e34e33916336bba1d740d135035d4e1d63b87fc446da374fec3aaccaca
+
+
+# contentful:
+#   spaces:
+#     - links:
+#         space: 3fwy09k2gc9g
+#         access_token: 25f513e34e33916336bba1d740d135035d4e1d63b87fc446da374fec3aaccaca

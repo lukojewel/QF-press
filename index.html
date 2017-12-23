@@ -1,0 +1,75 @@
+---
+layout: default
+title: Qatar foundation Media Coverage
+pagination: 
+  enabled: true
+---
+
+<div class="container-fluid qf-top-banner">
+  <div class="qf-banner-overlay"></div>
+  <div class="col-md-12">
+    <h1 class="qf-banner-h1">Qatar Foundation Media Coverages</h1>
+    <div class="col-md-12 qf-banner-desc">Browse through our Media's to find out what’s going on throughout the year</div>
+</div>
+</div>
+<div class="container qf-highlights-section">
+  <div class="row">
+    <div class="col-md-12 qf-highlights-title-wrapper"><h3 class="qf-highlights-title">Media Highlights</h3></div>
+    
+    <select id="qf-sort">
+      <option value="all">All</option>
+      {% for link in site.data.contentful.spaces.links.link %}
+      <option value="{{ link.website_name }}">{{ link.website_name }}</option>
+      {% endfor %}
+    </select>
+
+    {% for post in paginator.posts %}
+    <li><a href="{{post.url | prepend: site.baseurl}}"><h3>{{post.title}}</h3></a></li>
+    {% endfor %}
+    
+    <div class="col-md-12 qf-highlights-list-wrapper">
+        {% for link in site.data.contentful.spaces.links.link %}
+        <div class="col-md-4 qf-highlights-item-wrapper {{ link.website_name }}">
+          <div class="col-md-12 qf-highlights-item no-padding">
+            <div class="col-md-12 no-padding">
+              <img class="qf-highlights-item-img" src="./images/highlight-item-4.jpg" alt="">
+            </div>
+            <div class="col-md-12 ">
+              <h5 class="qf-highlights-item-title-wrapper"><a target="_blank" href="{{ link.url | url }}" class="qf-highlights-item-title">Introducing Shared Channels: Where you can work with anyone in QF</a></h5>
+              <span class="qf-highlights-source-name">{{ link.website_name }}</span>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+    </div>  
+
+
+    <!-- pagination -->
+{% if paginator.total_pages > 1 %}
+<div class="pagination"> 
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+  {% else %}
+    <span>&laquo; Prev</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <span class="webjeda">{{ page }}</span>
+    {% elsif page == 1 %}
+      <a href="/">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+  {% else %}
+    <span>Next &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}
+
+  </div>
+</div>
