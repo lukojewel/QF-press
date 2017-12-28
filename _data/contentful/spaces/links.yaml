@@ -1,0 +1,294 @@
+---
+pilotProject:
+- sys:
+    id: 3pkVWphpf2wiuGyaGeaqsO
+    created_at: !ruby/object:DateTime 2017-12-28 13:13:04.026000000 Z
+    updated_at: !ruby/object:DateTime 2017-12-28 13:13:04.026000000 Z
+    content_type_id: pilotProject
+  url: http://www.thepeninsulaqatar.com/article/13/12/2017/Sheikha-Moza-lauds-crucial-role-played-by-Qatar-Foundation-staff
+  title: QF celebrates National Day at Darb Al-Saai
+  image: http://www.thepeninsulaqatar.com/uploads/2017/12/13/post_main_cover/08d304423c5a26442ab6a7b2fed3d5774755122d.jpg
+  country: QA
+  language: en
+  type: news
+  createdate: '2017-12-18'
+  source: Gulf Times
+- sys:
+    id: 5uwWcFYZ8cagKiu0WMGus2
+    created_at: !ruby/object:DateTime 2017-12-28 13:13:05.021000000 Z
+    updated_at: !ruby/object:DateTime 2017-12-28 13:13:05.021000000 Z
+    content_type_id: pilotProject
+  url: http://www.iloveqatar.net/news/content/ajyal-feature-100-plus-films-43-nations
+  title: Desert sun in Qatar too hot for solar panels to work
+  country: GB
+  language: en
+  type: news
+  createdate: '2017-08-27'
+  source: The Times Online
+- sys:
+    id: 15QTfRZQHUOeAYaQiOImSU
+    created_at: !ruby/object:DateTime 2017-12-28 13:13:04.555000000 Z
+    updated_at: !ruby/object:DateTime 2017-12-28 13:13:04.555000000 Z
+    content_type_id: pilotProject
+  url: http://www.dohainsight.com/story-z8581842
+  title: Sheikha Moza Visits Qatar Foundation’s Tent at Darb Al-Saai
+  country: JO
+  language: en
+  type: news
+  createdate: '2017-12-20'
+  source: Al Bawaba (English)
+- sys:
+    id: 3IofcawDL2YqiqYU4amUmW
+    created_at: !ruby/object:DateTime 2017-12-28 13:13:02.984000000 Z
+    updated_at: !ruby/object:DateTime 2017-12-28 13:13:02.984000000 Z
+    content_type_id: pilotProject
+  url: https://www.marhaba.qa/qatar-biobank-welcomes-10000th-participant/
+  title: Qatar Foundation Partners With Torba Farmers Market
+  image: https://www.marhaba.qa/wp-content/uploads/2017/11/qatar-biobank-cover.jpg
+  country: JO
+  language: en
+  type: news
+  createdate: '2017-11-14'
+  source: Al Bawaba (English)
+- sys:
+    id: jnvnQyOIjCc6cGUyQycmu
+    created_at: !ruby/object:DateTime 2017-12-28 13:13:03.901000000 Z
+    updated_at: !ruby/object:DateTime 2017-12-28 13:13:03.901000000 Z
+    content_type_id: pilotProject
+  url: https://bdaily.co.uk/articles/2017/11/14/specialised-master-s-degree-in-financial-regulation-and-leadership-launches-in-qatar
+  title: Qatar restores ties with Iran, ignoring demands of Arab neighbors
+  image: https://bdaily.co.uk/images/uploads/NlPEKL28oOXrndtgEdcuT67eu3JnGZBKKVnNJKB3.jpeg?w=940&h=430&dpr=1&fit=crop-51-70
+  country: US
+  language: en
+  type: news
+  createdate: '2017-08-27'
+  source: CNN
+- sys:
+    id: 3SToQyQuk8Iiaea0A0MGU
+    created_at: !ruby/object:DateTime 2017-12-28 13:13:01.995000000 Z
+    updated_at: !ruby/object:DateTime 2017-12-28 13:13:01.995000000 Z
+    content_type_id: pilotProject
+  url: http://www.raya.com/news/pages/a4ebf92e-f81f-4971-9f26-99644f111c83
+  title: MES conducts motivational programme
+  image: http://www.raya.com/file/GetImageCustom/45e0cb25-b529-4045-a4b7-023f61be6d44/600/338
+  country: QA
+  language: en
+  type: news
+  createdate: '2017-11-14'
+  source: The Peninsula Qatar
+- sys:
+    id: 6R2Ta8R4Mo2MYEKKG6gAuq
+    created_at: !ruby/object:DateTime 2017-12-28 13:13:02.862000000 Z
+    updated_at: !ruby/object:DateTime 2017-12-28 13:13:02.862000000 Z
+    content_type_id: pilotProject
+  url: http://www.al-watan.com/news-details/id/106667
+  title: Specialised Master's Degree in Financial Regulation and Leadership Launches
+    in Qatar
+  image: http://www.al-watan.com/Data/20171114/Images/4_1_1.jpg
+  country: GB
+  language: en
+  type: news
+  createdate: '2017-11-14'
+  source: Bdaily
+- sys:
+    id: 4dvyEW7axGGC8KGg64E2Ws
+    created_at: !ruby/object:DateTime 2017-12-28 13:13:01.992000000 Z
+    updated_at: !ruby/object:DateTime 2017-12-28 13:13:01.992000000 Z
+    content_type_id: pilotProject
+  url: http://edition.cnn.com/2017/08/24/middleeast/iran-qatar-diplomatic-ties/index.html
+  title: شراكة بين مؤسسة قطر وسوق التربة للمزارعين
+  image: http://cdn.cnn.com/cnnnext/dam/assets/170824140316-qatar-tease-new-super-tease.jpg
+  country: QA
+  language: ar
+  type: news
+  createdate: '2017-11-14'
+  source: Doha Insight - Arabic
+- sys:
+    id: 2Ws3rP6TZu2Ik0miuWgUsu
+    created_at: !ruby/object:DateTime 2017-12-28 13:13:02.342000000 Z
+    updated_at: !ruby/object:DateTime 2017-12-28 13:13:02.342000000 Z
+    content_type_id: pilotProject
+  url: https://www.marhaba.qa/high-school-students-win-trip-wcm-q-research-labs-us/
+  title: QSTec partners with Qatar Museums to inaugurate MENA’s first Solar Art Festival
+  image: https://www.marhaba.qa/wp-content/uploads/2017/11/HSMC-winners-WCMQ.jpg
+  country: QA
+  language: en
+  type: news
+  createdate: '2017-11-14'
+  source: BQ Magazine
+- sys:
+    id: 6Njz84slk4Iy8Kw8e8kUIK
+    created_at: !ruby/object:DateTime 2017-12-28 13:13:02.560000000 Z
+    updated_at: !ruby/object:DateTime 2017-12-28 13:13:02.560000000 Z
+    content_type_id: pilotProject
+  url: http://www.thepeninsulaqatar.com/article/13/11/2017/Sidra-Medicine-to-mark-World-Diabetes-Day
+  title: Organic Locally Grown Products at the Weekly Market in Education City
+  image: http://www.thepeninsulaqatar.com/uploads/2017/11/13/post_main_cover/99598772830fae904b5e350e37804b09c8e7dcaf.jpg
+  country: QA
+  language: en
+  type: news
+  createdate: '2017-11-14'
+  source: Qatar Day
+- sys:
+    id: 4y5XYNPDCEyMmGy48KmoYm
+    created_at: !ruby/object:DateTime 2017-12-28 13:13:05.210000000 Z
+    updated_at: !ruby/object:DateTime 2017-12-28 13:13:05.210000000 Z
+    content_type_id: pilotProject
+  url: http://www.bq-magazine.com/energy/renewables/2017/11/qstec-partners-qatar-museums-inaugurate-menas-first-solar-art-festival
+  title: Qatar Biobank Welcomes 10,000th Participant
+  image: http://www.bq-magazine.com/wp-content/uploads/2017/11/QSTec.png
+  country: QA
+  language: en
+  type: news
+  createdate: '2017-11-12'
+  source: Marhaba
+- sys:
+    id: 4E5xeQ89KECAGycQQmSI6Y
+    created_at: !ruby/object:DateTime 2017-12-28 13:13:03.015000000 Z
+    updated_at: !ruby/object:DateTime 2017-12-28 13:13:03.015000000 Z
+    content_type_id: pilotProject
+  url: http://www.qatar-tribune.com/news-details/id/95925
+  title: Sheikha Moza lauds crucial role played by Qatar Foundation staff
+  image: http://www.qatar-tribune.com/Data/20171114/Images/5_3_1.jpg
+  country: QA
+  language: en
+  type: news
+  createdate: '2017-12-13'
+  source: The Peninsula Qatar
+- sys:
+    id: 1hJqdeuha24G8k4CGGmQoq
+    created_at: !ruby/object:DateTime 2017-12-28 13:13:03.300000000 Z
+    updated_at: !ruby/object:DateTime 2017-12-28 13:13:03.300000000 Z
+    content_type_id: pilotProject
+  url: http://www.qatar-tribune.com/news-details/id/95905
+  title: High School Students Win Trip to WCM-Q Research Labs in the US
+  image: http://www.qatar-tribune.com/Data/20171114/Images/20_4_1.jpg
+  country: QA
+  language: en
+  type: news
+  createdate: '2017-11-14'
+  source: Marhaba
+- sys:
+    id: 6fORm2tp7yu2Y8eomqG8u8
+    created_at: !ruby/object:DateTime 2017-12-28 13:13:02.013000000 Z
+    updated_at: !ruby/object:DateTime 2017-12-28 13:13:02.013000000 Z
+    content_type_id: pilotProject
+  url: http://www.qatar-tribune.com/news-details/id/95927
+  title: QF advocates for women's health in diabetes fight
+  image: http://www.qatar-tribune.com/Data/20171114/Images/5_5_1.jpg
+  country: QA
+  language: en
+  type: news
+  createdate: '2017-11-14'
+  source: Qatar Tribune
+- sys:
+    id: 3s8BmtFmnSiwGS8y6uYU4q
+    created_at: !ruby/object:DateTime 2017-12-28 13:13:04.456000000 Z
+    updated_at: !ruby/object:DateTime 2017-12-28 13:13:04.456000000 Z
+    content_type_id: pilotProject
+  url: http://www.wakionline.com/news-qatar/130739.html
+  title: U.S. Schools Receive Aid From Qatar
+  image: http://www.wakionline.com/temp/resized/medium_default.png
+  country: US
+  language: en
+  type: news
+  createdate: '2017-08-25'
+  source: Wall Street Journal
+- sys:
+    id: 6uOJyk8IGA0gq2YuMYaUMy
+    created_at: !ruby/object:DateTime 2017-12-28 13:13:04.142000000 Z
+    updated_at: !ruby/object:DateTime 2017-12-28 13:13:04.142000000 Z
+    content_type_id: pilotProject
+  url: http://www.gulf-times.com/story/575261/QF-celebrates-National-Day-at-Darb-Al-Saai
+  title: "«قمة وايز».. «8» أعوام من الابتكار في التعليم"
+  image: http://img.gulf-times.com/Content/Upload/Slider/1220171821418128480035.jpg
+  country: QA
+  language: ar
+  type: news
+  createdate: '2017-11-14'
+  source: جريدة الوطن
+- sys:
+    id: 4BEIBKWDgcKuYoO4YWAYOa
+    created_at: !ruby/object:DateTime 2017-12-28 13:13:02.096000000 Z
+    updated_at: !ruby/object:DateTime 2017-12-28 13:13:02.096000000 Z
+    content_type_id: pilotProject
+  url: http://www.qatarday.com/news/local/organic-locally-grown-products-at-the-weekly-market-in-education-city/55776
+  title: Ajyal to feature 100 plus films from 43 nations
+  image: http://www.qatarday.com/uploads/posts/large/1510654048.jpg
+  country: QA
+  language: en
+  type: news
+  createdate: '2017-11-14'
+  source: I Love Qatar
+- sys:
+    id: 1EIffQ4MjqCWeoqgCUsm6u
+    created_at: !ruby/object:DateTime 2017-12-28 13:13:03.375000000 Z
+    updated_at: !ruby/object:DateTime 2017-12-28 13:13:03.375000000 Z
+    content_type_id: pilotProject
+  url: https://www.marhaba.qa/application-period-extended-wcm-q-biomedical-research-training-program/
+  title: QSTec, Qatar Museums open Solar Art Festival
+  image: https://www.marhaba.qa/wp-content/uploads/2017/11/wcmq-biomedical-research.jpg
+  country: QA
+  language: en
+  type: news
+  createdate: '2017-11-14'
+  source: Qatar Tribune
+- sys:
+    id: 797gyYciKQ4SQ0QcCuO4yG
+    created_at: !ruby/object:DateTime 2017-12-28 13:13:04.384000000 Z
+    updated_at: !ruby/object:DateTime 2017-12-28 13:13:04.384000000 Z
+    content_type_id: pilotProject
+  url: https://www.albawaba.com/business/pr/qatar-foundation-partners-torba-farmers-market-1047588
+  title: مشروعات مشيرب العقارية.. الأذكى عالمياً
+  image: http://www.albawaba.com/sites/default/files/im/pr_new/qatar_foundation_building.jpg
+  country: QA
+  language: ar
+  type: news
+  createdate: '2017-11-12'
+  source: جريدة الراية
+- sys:
+    id: 2lJVyWL9cg4iCQYcI6ui02
+    created_at: !ruby/object:DateTime 2017-12-28 13:13:03.054000000 Z
+    updated_at: !ruby/object:DateTime 2017-12-28 13:13:03.054000000 Z
+    content_type_id: pilotProject
+  url: https://www.wsj.com/articles/u-s-schools-receive-aid-from-qatar-1503682830?mod=e2tw
+  title: أخبار قطر - مهرجان فنون الطاقة الشمسية
+  image: https://si.wsj.net/public/resources/images/BN-UQ396_QATARS_TOP_20170810171935.jpg
+  country: EG
+  language: ar
+  type: news
+  createdate: '2017-11-14'
+  source: Wakionline
+- sys:
+    id: CENoMJfEt2EqGs62CKoEY
+    created_at: !ruby/object:DateTime 2017-12-28 13:13:03.508000000 Z
+    updated_at: !ruby/object:DateTime 2017-12-28 13:13:03.508000000 Z
+    content_type_id: pilotProject
+  url: http://www.thepeninsulaqatar.com/article/14/11/2017/MES-conducts-motivational-programme
+  title: Application Period Extended for WCM-Q Biomedical Research Training Program
+  image: http://www.thepeninsulaqatar.com/uploads/2017/11/14/post_main_cover/0dcb26a8b616094c886d926ed19858c195de0731.jpg
+  country: QA
+  language: en
+  type: news
+  createdate: '2017-11-12'
+  source: Marhaba
+- sys:
+    id: BIixQOlw08a8QO8MmOkSM
+    created_at: !ruby/object:DateTime 2017-12-28 13:13:04.309000000 Z
+    updated_at: !ruby/object:DateTime 2017-12-28 13:13:04.309000000 Z
+    content_type_id: pilotProject
+  url: https://www.thetimes.co.uk/article/desert-sun-in-qatar-too-hot-for-solar-panels-to-work-h23kmktbp
+  title: WISH genomics research findings presented to new HBKU cohorts
+  image: http://www.thetimes.co.uk/imageserver/image/methode%2Ftimes%2Fprod%2Fweb%2Fbin%2F2c9ff76a-85c7-11e7-9f10-c918952dd8f2.jpg?crop=2196%2C1235%2C0%2C114
+  country: QA
+  language: en
+  type: news
+  createdate: '2017-11-14'
+  source: Qatar Tribune
+filter:
+- sys:
+    id: 8twh5araVySQO6gWWeOQA
+    created_at: !ruby/object:DateTime 2017-12-28 10:04:18.990000000 Z
+    updated_at: !ruby/object:DateTime 2017-12-28 10:04:18.990000000 Z
+    content_type_id: filter
+  language: En
