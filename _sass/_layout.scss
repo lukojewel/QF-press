@@ -63,7 +63,31 @@ Page content
 .qf-featured-list-wrapper{
     padding-top: 40px;
 }
-
+.qf-featured-list-title-wrapper{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.61);
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    min-height: 100px;
+}
+.qf-featured-list-item{
+    min-height: 250px;
+    box-shadow: rgba(86, 86, 86, 0.1) 0px 0.5px 6px, rgba(179, 179, 179, 0.1) -1px 1px 11px;
+}
+.qf-featured-list-title{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 145%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+}
 
 
 
