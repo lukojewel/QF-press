@@ -56,11 +56,25 @@ Page content
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
-}   
+}  
+.qf-featured-section{
+    padding: 40px 0 60px;
+}
+.qf-featured-list-wrapper{
+    padding-top: 40px;
+}
+
+
+
+
+
+
+
+
 .qf-highlights-section{
     padding: 60px 0;
 }
-.qf-highlights-title{
+.qf-highlights-title,.qf-featured-title{
     text-transform: uppercase;
     font-weight: 600;
     text-align: center;

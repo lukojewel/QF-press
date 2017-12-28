@@ -28,8 +28,8 @@ plugins:
 contentful:
   spaces:
     - links:
-        space: 3fwy09k2gc9g
-        access_token: 25f513e34e33916336bba1d740d135035d4e1d63b87fc446da374fec3aaccaca
+        space: zx0wjucezhvh
+        access_token: 900504909fae7870462fe1db051d17afb950759dc8e3e2a27de970abc68e68f1
 
 
 # contentful:
