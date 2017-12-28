@@ -1,0 +1,8 @@
+# require './_plugins/page_mapper'
+# require './_plugins/page_mapper-ar'
+# require './_plugins/page_mapper_category'
+# require './_plugins/page_mapper_event_type'
+# require './_plugins/page_mapper_tender'
+# require './_plugins/page_mapper_campaign'
+# require './_plugins/page_mapper_entity'
+require './_plugins/contentful_sys_mapper'

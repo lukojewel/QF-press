@@ -52,7 +52,7 @@ GEM
       sass (~> 3.4)
     jekyll-watch (1.5.1)
       listen (~> 3.0)
-    json (1.8.6)
+    json (2.0.4)
     kramdown (1.16.2)
     launchy (2.4.3)
       addressable (~> 2.3)
@@ -66,6 +66,9 @@ GEM
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.1)
+    rake (10.5.0)
+    rake-jekyll (1.1.0)
+      rake (~> 10.0)
     rb-fsevent (0.10.2)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
@@ -92,6 +95,7 @@ DEPENDENCIES
   jekyll-contentful-data-import
   jekyll-feed
   jekyll-paginate
+  rake-jekyll
 
 BUNDLED WITH
    1.16.0
