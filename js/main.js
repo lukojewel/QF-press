@@ -7,32 +7,36 @@ var filterLangValue = "all";
     
     $('#qf-filter-lang').on('change', function() {
       filterLangValue = this.value;
-      $(".qf-highlights-item-wrapper").fadeOut();
       contentFilter();
     })
     $('#qf-pub').on('change', function() {
       filterpublicationValue = this.value;
-      $(".qf-highlights-item-wrapper").fadeOut();
       contentFilter();
     })
     $('#qf-filter-country').on('change', function() {
       filtercountryValue = this.value;
-      $(".qf-highlights-item-wrapper").fadeOut();
       contentFilter();
     })
   });
 
-function contentFilter(){
+function contentFilter(callback){
+
+  $(".qf-highlights-item-wrapper").fadeOut();
+  var result_value = false;
+  
   if(filterLangValue == "all" && filterpublicationValue == "all" && filtercountryValue == "all"){
     $(".qf-highlights-item-wrapper").fadeIn();
+    result_value= true;
   }
   else if(filterLangValue != "all" && filterpublicationValue == "all" && filtercountryValue == "all"){
     $("."+filterLangValue+"").fadeIn();
+    result_value= true;
   }
   else if(filterLangValue == "all" && filterpublicationValue != "all" && filtercountryValue == "all"){
     $(".qf-highlights-item-wrapper").each(function(i, value) {
       if($(this).attr("data-filter-lang") == filterpublicationValue){
         $(this).fadeIn();
+        result_value= true;
       }
     })
   }
@@ -40,6 +44,7 @@ function contentFilter(){
     $(".qf-highlights-item-wrapper").each(function(i, value) {
       if($(this).attr("data-filter-country") == filtercountryValue){
         $(this).fadeIn();
+        result_value= true;
       }
     })
   }
@@ -47,6 +52,7 @@ function contentFilter(){
     $("."+filterLangValue+"").each(function(i, value) {
       if($(this).attr("data-filter-lang") == filterpublicationValue){
         $(this).fadeIn();
+        result_value= true;
       }
     })
   }
@@ -54,6 +60,7 @@ function contentFilter(){
     $(".qf-highlights-item-wrapper").each(function(i, value) {
       if(($(this).attr("data-filter-lang") == filterpublicationValue) && ($(this).attr("data-filter-country") == filtercountryValue)){
         $(this).fadeIn();
+        result_value= true;
       }
     })
   }
@@ -61,6 +68,7 @@ function contentFilter(){
     $("."+filterLangValue+"").each(function(i, value) {
       if($(this).attr("data-filter-country") == filtercountryValue){
         $(this).fadeIn();
+        result_value= true;
       }
     })
   }
@@ -68,7 +76,16 @@ function contentFilter(){
     $("."+filterLangValue+"").each(function(i, value) {
       if(($(this).attr("data-filter-lang") == filterpublicationValue) && ($(this).attr("data-filter-country") == filtercountryValue)){
         $(this).fadeIn();
+        result_value= true;
       }
     })
-  }  
+  }
+  noResult(result_value)
+}
+
+function noResult(result_value){
+  $(".qf-no-result-wrapper").fadeOut();
+  if (result_value == 0) {
+      $(".qf-no-result-wrapper").fadeIn();
+    }
 }
