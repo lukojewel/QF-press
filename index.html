@@ -15,14 +15,19 @@ title: Qatar foundation Media Coverage
     <div class="col-md-12 qf-featured-section">
       <div class="col-md-12"><h3 class="qf-featured-title">Featured Media</h3></div>
       <div class="col-md-12 qf-featured-list-wrapper">
+          {% assign pilotProject = site.data.contentful.spaces.links.pilotProject | where: "featured",true %}
+          {% for pilotProject in pilotProject %}
           <div class="col-md-4">
-            <div class="col-md-12 no-padding qf-featured-list-item" style="background: url('https://si.wsj.net/public/resources/images/BN-UQ396_QATARS_TOP_20170810171935.jpg') center;background-size: cover">
+            <div class="col-md-12 no-padding qf-featured-list-item" style="background: url('{{ pilotProject.image }}') center;background-size: cover">
               <div class="qf-featured-list-title-wrapper">
-                <h5 class="qf-featured-list-title">Qatar Foundation Media Coverages</h5>
+                <h5 class="qf-featured-list-title">{{ pilotProject.title }}</h5>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          {% endfor %}
+
+
+          <!-- <div class="col-md-4">
             <div class="col-md-12 no-padding qf-featured-list-item" style="background: url('https://si.wsj.net/public/resources/images/BN-UQ396_QATARS_TOP_20170810171935.jpg') center;background-size: cover">
               <div class="qf-featured-list-title-wrapper">
                 <h5 class="qf-featured-list-title">Browse through our Media's to find out what’s going</h5>
@@ -35,7 +40,7 @@ title: Qatar foundation Media Coverage
                 <h5 class="qf-featured-list-title">Browse through our Media's to find out what’s going on throughout the year r Media's to find out what’s going on throughout the year</h5>
               </div>
             </div>
-          </div>
+          </div> -->
       </div> 
     </div>
   </div>
@@ -46,31 +51,36 @@ title: Qatar foundation Media Coverage
   <div class="row">
     <div class="col-md-12 qf-highlights-title-wrapper"><h3 class="qf-highlights-title">Media Highlights</h3></div>
     <div class="col-md-2">
-      <select id="qf-sort">
+      <select id="qf-filter-lang">
         <option value="all">All Language</option>
-        {% for pilotProject in site.data.contentful.spaces.links.pilotProject %}
-        <option value="{{ pilotProject.language }}">{{ pilotProject.language }}</option>
+        {% for languageFilter in site.data.contentful.spaces.links.languageFilter %}
+        <option value="{{ languageFilter.value }}">{{ languageFilter.name }}</option>
         {% endfor %}
       </select>
     </div>
 
     <div class="col-md-2">
-      <select id="qf-country">
+      <select id="qf-filter-country">
         <option value="all">All Country</option>
-        <option value="">France</option>
+        {% for CountryFilter in site.data.contentful.spaces.links.CountryFilter %}
+        <option value="{{ CountryFilter.value }}">{{ CountryFilter.name }}</option>
+        {% endfor %}
       </select>
     </div>
 
     <div class="col-md-2">
       <select id="qf-pub">
         <option value="all">All Publication</option>
-        <option value="">France</option>
+        {% for publicationFilter in site.data.contentful.spaces.links.publicationFilter %}
+        <option value="{{ publicationFilter.value }}">{{ publicationFilter.name }}</option>
+        {% endfor %}
       </select>
     </div>
 
     <div class="col-md-12 qf-highlights-list-wrapper">
-        {% for pilotProject in site.data.contentful.spaces.links.pilotProject %}
-        <div class="col-md-4 qf-highlights-item-wrapper {{ pilotProject.language }}">
+      {% assign pilotProject = site.data.contentful.spaces.links.pilotProject | sort: 'createdate' | reverse %}
+        {% for pilotProject in pilotProject %}
+        <div class="col-md-4 qf-highlights-item-wrapper {{ pilotProject.language }}" data-filter-lang="{{ pilotProject.source }}" data-filter-country="{{ pilotProject.country }}">
           <div class="col-md-12 qf-highlights-item no-padding">
             <div class="col-md-12 no-padding">
               <img class="qf-highlights-item-img" src="{{ pilotProject.image }}" alt="">
@@ -78,6 +88,8 @@ title: Qatar foundation Media Coverage
             <div class="col-md-12 ">
               <h5 class="qf-highlights-item-title-wrapper"><a target="_blank" href="{{ pilotProject.url | url }}" class="qf-highlights-item-title">{{ pilotProject.title }}</a></h5>
               <span class="qf-highlights-source-name">{{ pilotProject.source }}</span>
+              <span>{{ pilotProject.createdate | date_to_string }}</span>
+              <span>{{ pilotProject.country }}</span>
             </div>
           </div>
         </div>
