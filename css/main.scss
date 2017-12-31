@@ -12,14 +12,6 @@ Created:    21.12.2017 10:55 AM
 Use:   Event/News based micro website 
 -------------------------------------------------------------------*/
 
-/*------------------------------------------------------------------
-[Table of contents]
-
-1. Fonts
-2. Global variables
-3. Imports
--------------------------------------------------------------------*/
-
 
 /*---------------------
 Fonts and text style
@@ -43,12 +35,10 @@ Global variables
 $qf-brand-green: #044437;
 
 
-
 /*---------------------
 Fonts
 -----------------------*/
 @import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,800|Open+Sans:300,400,600,700);
-
 
 
 $grey-color:       #828282;
@@ -67,7 +57,6 @@ $on-laptop:        800px;
 		"bootstrap",
         "bootstrap/grid",
         "base",
-        "layout",
-        "syntax-highlighting"
+        "layout"
         
 
