@@ -2,13 +2,11 @@
 /*------------------------------------------------------------------
 [Layout Stylesheet]
 
-Project:    Qatar Foundation Press
+Project:    Qatar Foundation Media
 Version:    1.0
 Created:    21.12.2017 10:55 AM
 Use:   Event/News based micro website 
 -------------------------------------------------------------------*/
-
-
 /*---------------------
 Header
 -----------------------*/
@@ -23,7 +21,6 @@ Header
     border-bottom: 1px solid #f5f5f5;
     min-height: 56px;
 }
-
 /*---------------------
 Page content
 -----------------------*/
@@ -104,7 +101,6 @@ Page content
     font-weight: 300;
     border-radius: 8px;
 }
-
 .qf-highlights-section{
     padding: 60px 0;
 }
@@ -144,6 +140,10 @@ Page content
     text-align: right;
     padding: 0;
 }
+.qf-filter-mob-view{
+    display: none;
+    text-align: right;
+}
 .qf-highlights-list-wrapper{
     padding-top: 50px;
 }
@@ -159,6 +159,7 @@ Page content
     border-bottom: 5px solid #0099cc;
     max-height: 190px;
     width: 100%;
+    object-fit: cover;
 }
 .qf-highlights-item-img-wrapper{
     min-height: 190px;
@@ -186,12 +187,11 @@ Page content
     color: #404040;
 }
 a.qf-highlights-item-title:hover {
-  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
-  -webkit-mask-size: 200%;
-  animation: shine 2s infinite;
-  cursor: pointer;
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 2s infinite;
+    cursor: pointer;
 }
-
 @-webkit-keyframes shine {
   from {
     -webkit-mask-position: 150%;
@@ -202,11 +202,11 @@ a.qf-highlights-item-title:hover {
   }
 }
 .qf-highlights-source-name{
-    padding: 6px 15px;
+    padding: 5px 10px;
     display: inline-block;
     border: 1px solid #efefef;
     margin-bottom: 20px;
-    font-size: 12px;
+    font-size: 11px;
     color: #4e4e4e;
     font-weight: 300;
     border-radius: 8px;
@@ -217,7 +217,6 @@ a.qf-highlights-item-title:hover {
     padding: 60px 0;
     display: none;
 }
-
 /*---------------------
 Footer
 -----------------------*/
@@ -244,12 +243,17 @@ Footer
 .footer-contact-item{
     color: #616161;
 }
-
-
-
-
-
-
+.qf-footer-scoial-icon-wrapper{
+    padding-right: 8px;
+}
+.qf-footer-scoial-icon{
+    width: 28px;
+    object-fit: cover;
+    opacity: .9;
+}
+.qf-footer-scoial-icon:hover{
+    opacity: .6;
+}
 /* ==============================
    Tablet landskape
    ============================== */
@@ -258,12 +262,18 @@ Footer
         min-height: 380px;
     }
 }
-@media only screen and (max-width: 1024px) {
-
-}
 @media only screen and (max-width: 992px) {
     .qf-featured-list-item{
         margin-bottom: 20px;
+    }
+    .footer-content-item-wrapper{
+        padding-bottom: 30px;
+    }
+    .qf-highlights-filter-wrapper{
+        display: none;
+    }
+    .qf-filter-mob-view{
+        display: block;
     }
 
 }
@@ -296,7 +306,10 @@ Footer
     .footer-contact-section-wrapper{
         padding: 20px 20px 0 20px;
     }
-
+    .qf-filter-mob-view{
+        text-align: center;
+        padding: 10px 0;
+    }
 }
 /* ==============================
    Phone
@@ -329,152 +342,5 @@ Footer
         padding-left: 5px;
         padding-right: 25px;
     }
-    
 }
 
-@media only screen and (max-width: 380px) {
-
-}
-/* ==============================
-   Small Phone
-   ============================== */
-@media only screen and (max-width: 319px) {
-    
-
-}
-
-
-/**
- * Site header
- */
-
-
-
-
-.site-nav {
-    float: right;
-    line-height: 56px;
-
-    .menu-icon {
-        display: none;
-    }
-
-    .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the last one
-        &:not(:last-child) {
-            margin-right: 20px;
-        }
-    }
-}
-
-
-
-/**
- * Site footer
- */
-
-
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
-}
-
-.contact-list,
-.social-media-list {
-    list-style: none;
-    margin-left: 0;
-}
-
-.footer-col-wrapper {
-    font-size: 15px;
-    color: $grey-color;
-    margin-left: -$spacing-unit / 2;
-    @extend %clearfix;
-}
-
-.footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-}
-
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
-}
-
-
-
-
-/**
- * Page content
- */
-
-
-.post-list {
-    margin-left: 0;
-    list-style: none;
-
-    > li {
-        margin-bottom: $spacing-unit;
-    }
-}
-
-.post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
-}
-
-.post-link {
-    display: block;
-    font-size: 24px;
-}
-
-
-
-/**
- * Posts
- */
-.post-header {
-    margin-bottom: $spacing-unit;
-}
-
-.post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
-
-}
-
-.post-content {
-    margin-bottom: $spacing-unit;
-
-    h2 {
-        font-size: 32px;
-
-    
-    }
-
-    h3 {
-        font-size: 26px;
-
-    }
-
-    h4 {
-        font-size: 20px;
-
-    }
-}

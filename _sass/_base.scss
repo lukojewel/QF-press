@@ -1,10 +1,4 @@
 
-
-
-
-
-
-
 /*---------------------
 Basic Styling
 -----------------------*/
@@ -23,61 +17,28 @@ body {
 h1, h2, h3, h4, h5{
     font-family: 'Montserrat', sans-serif;
 }
-
-
 .no-padding{
     padding: 0;
 }
-
-
-
-
-
-
-
-/**
- * Reset some basic elements
- */
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
 }
-
-
-
-/**
- * Basic styling
- */
-
-
-
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
+/*Set `margin-bottom` to maintain vertical rhythm*/
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: 0;
 }
-
-
-
-/**
- * Images
- */
+/*Images*/
 img {
     max-width: 100%;
     vertical-align: middle;
 }
-
-
-
-/**
- * Figures
- */
+/*Figures*/
 figure > img {
     display: block;
 }
@@ -85,12 +46,7 @@ figure > img {
 figcaption {
     font-size: $small-font-size;
 }
-
-
-
-/**
- * Lists
- */
+/*Lists*/
 ul, ol {
     margin-left: $spacing-unit;
 }
@@ -101,21 +57,11 @@ li {
          margin-bottom: 0;
     }
 }
-
-
-
-/**
- * Headings
- */
+/* Headings*/
 h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
 }
-
-
-
-/**
- * Links
- */
+/* Links*/
 a {
     color: $brand-color;
     text-decoration: none;
@@ -129,12 +75,7 @@ a {
         text-decoration: underline;
     }
 }
-
-
-
-/**
- * Blockquotes
- */
+/*Blockquotes*/
 blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
@@ -147,12 +88,7 @@ blockquote {
         margin-bottom: 0;
     }
 }
-
-
-
-/**
- * Code formatting
- */
+/*Code formatting*/
 pre,
 code {
     font-size: 15px;
@@ -176,16 +112,8 @@ pre {
     }
 }
 
-
-
-
-
-
-/**
- * Clearfix
- */
+/*Clearfix*/
 %clearfix {
-
     &:after {
         content: "";
         display: table;
@@ -193,13 +121,8 @@ pre {
     }
 }
 
-
-
-/**
- * Icons
- */
+/*Icons*/
 .icon {
-
     > svg {
         display: inline-block;
         width: 16px;

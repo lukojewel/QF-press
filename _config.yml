@@ -9,7 +9,7 @@
 title: Qatar foundation Press
 email: suport@qf.com
 description: > # this means to ignore newlines until "baseurl:"
-  Sample descp about qf - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+  Browse through our Media's to find out what’s going on throughout the year
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 twitter_username: contentfulapp
@@ -24,16 +24,8 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
-
 contentful:
   spaces:
     - links:
         space: zx0wjucezhvh
         access_token: 900504909fae7870462fe1db051d17afb950759dc8e3e2a27de970abc68e68f1
-
-
-# contentful:
-#   spaces:
-#     - links:
-#         space: 3fwy09k2gc9g
-#         access_token: 25f513e34e33916336bba1d740d135035d4e1d63b87fc446da374fec3aaccaca
